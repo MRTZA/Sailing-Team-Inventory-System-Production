@@ -1,4 +1,4 @@
-# Sailing-Team-Iventory-System
+# Sailing-Team-Inventory-System
 SaaS inventory tracker for the Texas A&amp;M Sailing Team
 
 ## Getting Started
@@ -45,29 +45,23 @@ Go to [localhost](http://localhost:3000) to see the site
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To run rspec tests, run the following in your terminal in the project directory...
 
-`something... something... rspec...`
+`rspec`
 
-### Break down into end to end tests
+To run cucumber tests, run the following in your terminal in the project directory...
 
-Explain what these tests test and why
+`cucumber`
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+SimpleCov tests should be run automatically when you run these above tests. You can find the code coverage results in the coverage folder.
 
 ## Deployment
 
-will write heroku deployment steps tomorrow
+To deploy to heroku, execute the following in your terminal in the project directory...
+
+`git push heroku master`
+`heroku run rake db:migrate`
+`heroku run rake db:seed`
 
 ## Built With
 
@@ -75,11 +69,11 @@ will write heroku deployment steps tomorrow
 
 ## Authors
 
-* **Jadie Marshall** - *Contribution goes here* - [jmar016](https://github.com/jmar016)
-* **Murtaza Hakimi** - *Contribution goes here* - [MRTZA](https://github.com/MRTZA)
-* **Eric Zhang** - *Contribution goes here* - [esotericzhang](https://github.com/esotericzhang)
-* **Nicolas Kristiansson** - *Contribution goes here* - [Norphesius](https://github.com/Norphesius)
-* **Trent Thompson** - *Contribution goes here* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Jadie Marshall** [jmar016](https://github.com/jmar016)
+* **Murtaza Hakimi** [MRTZA](https://github.com/MRTZA)
+* **Eric Zhang** [esotericzhang](https://github.com/esotericzhang)
+* **Nicolas Kristiansson** [Norphesius](https://github.com/Norphesius)
+* **Trent Thompson** [PurpleBooth](https://github.com/PurpleBooth)
 
 ## License
 

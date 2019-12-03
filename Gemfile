@@ -64,6 +64,7 @@ group :development do
   gem 'rspec-rails',	">=2.0.0.beta"
   gem 'cucumber'
   gem 'cucumber-rails' 
+  gem 'simplecov', require: false
 end
 
 group :production do
