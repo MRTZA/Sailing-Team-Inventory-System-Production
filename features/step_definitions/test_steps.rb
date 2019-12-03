@@ -35,7 +35,7 @@ Then(/^I should fail$/) do
   expect(page).to have_content("Sign in")
   find_field("Email").set("notauth@bademail.net")
   find_field("Password").set("swordfish")
-  click_on "Sign in"
+  click_button "Sign in"
   expect(page).to have_content("Bad email or password.")
 end
 
@@ -51,17 +51,39 @@ Then(/^I should see the sign-up page$/) do
 end
 
 Then(/^I should be able to make a new user account$/) do
+  visit "/"
+  click_on "Sign up"  
   find_field("Email").set("newuser@goodemail.net")
   find_field("Username").set("Testman")
   find_field("Password").set("password")
-  click_on "Sign up"
+  click_button "Sign up"
   expect(page).to have_content("All Inventory Items")
 end
 
 Then(/^I should be able to sign in with the account$/) do
   visit "/"
-  find_field("Email").set("olduser@goodemail.net")
+  click_on "Sign up" 
+  find_field("Email").set("newuser@goodemail.net")
+  find_field("Username").set("Testman")
   find_field("Password").set("password")
-  click_button "Sign in"
+  click_button "Sign up"
   expect(page).to have_content("All Inventory Items")
+end
+
+#
+
+When(/^I see the main page$/) do
+
+end
+
+Then(/^I should be able to checkout an item$/) do
+  visit "/"
+  click_on "Sign up" 
+  find_field("Email").set("newuser@goodemail.net")
+  find_field("Username").set("Testman")
+  find_field("Password").set("password")
+  click_button "Sign up"
+  expect(page).to have_content("All Inventory Items")
+  click_on "Check Out"
+  click_on "Check In"
 end

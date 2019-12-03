@@ -18,5 +18,7 @@ Feature: User_Login
 		Then I should see the sign-up page
 		Then I should be able to make a new user account
 		Then I should be able to sign in with the account
-		
-	
+
+	Scenario: User checks out an item
+		When I see the main page
+		Then I should be able to checkout an item
