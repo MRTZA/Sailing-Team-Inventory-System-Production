@@ -1,4 +1,4 @@
-# Sailing-Team-Iventory-System
+# Sailing-Team-Inventory-System
 SaaS inventory tracker for the Texas A&amp;M Sailing Team
 
 ## Getting Started
