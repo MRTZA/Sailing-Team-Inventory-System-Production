@@ -1,3 +1,4 @@
+<div class="details">
 -# in app/views/users/show.html.haml
 %h3 Details about #{@user.username}
 
@@ -20,3 +21,4 @@
 
 - if can? :read, @user
   = link_to 'Back to user list', users_path
+  </div>

@@ -1,3 +1,4 @@
+<div class="details">
 %h3 Details about #{@items.title}
 
 %ul#details
@@ -22,3 +23,4 @@
 = button_to 'Delete', item_path(@items), :method => :delete, :confirm => 'Are you sure?', :class => 'btn btn-primary'
 
 = link_to 'Back to item list', items_path
+</div>

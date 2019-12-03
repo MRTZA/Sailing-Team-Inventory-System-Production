@@ -1,3 +1,4 @@
+<div class="edit">
 %h2 Edit Existing Item
 
 = form_tag item_path(@item), :method => :put do
@@ -15,3 +16,4 @@
   = text_field :item, 'condition'
 
   = submit_tag 'Update Item Info', :class => 'btn btn-primary'
+</div>

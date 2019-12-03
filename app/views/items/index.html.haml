@@ -1,10 +1,12 @@
 %h1 All Inventory Items
 
+<div class="adminButtons">
 - if can? :create, @user
   %button= button_to 'Manage Users', {:controller => 'users', :action => 'index'}, {:method => 'get'}
 
 - if can? :create, @item
   %button= button_to 'Create New Item', {:controller => 'items', :action => 'new'}, {:method => 'get'}
+</div>
 
 - if can? :create, @user
   %table#items_condensed
