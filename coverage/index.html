@@ -1,0 +1,5262 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>Code coverage for Sailing-team-inventory-system</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src='./assets/0.10.2/application.js' type='text/javascript'></script>    
+    <link href='./assets/0.10.2/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.2/favicon_red.png" />
+    <link rel="icon" type="image/png" href="./assets/0.10.2/favicon.png" />
+  </head>
+  
+  <body>
+    <div id="loading">
+      <img src="./assets/0.10.2/loading.gif" alt="loading"/>
+    </div>
+    <div id="wrapper" style="display:none;">
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-12-03T06:04:49+00:00">2019-12-03T06:04:49+00:00</abbr></div>
+      <ul class="group_tabs"></ul>
+
+      <div id="content">
+        <div class="file_list_container" id="AllFiles">
+  <h2>
+    <span class="group_name">All Files</span>
+    (<span class="covered_percent"><span class="red">77.13%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="green">
+         1.42
+       </span>
+    </span> hits/line)
+  </h2>
+  <a name="AllFiles"></a>
+  <div>
+    <b>30</b> files in total.
+    <b>328</b> relevant lines. 
+    <span class="green"><b>253</b> lines covered</span> and
+    <span class="red"><b>75</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+        <th>Avg. Hits / Line</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#d4e47d2463696b4f96a8c7024f02b542c3d387ec" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+        <td class="red strong">66.67 %</td>
+        <td>9</td>
+        <td>6</td>
+        <td>4</td>
+        <td>2</td>
+        <td>0.7</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#ecb3f8e4efd03d4aeffb93970c8df3d98f829a47" class="src_link" title="app/controllers/items_controller.rb">app/controllers/items_controller.rb</a></td>
+        <td class="red strong">25.0 %</td>
+        <td>63</td>
+        <td>40</td>
+        <td>10</td>
+        <td>30</td>
+        <td>0.3</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#87593bbc3750c8d6f39229303b8949e0287de49f" class="src_link" title="app/controllers/users_controller.rb">app/controllers/users_controller.rb</a></td>
+        <td class="red strong">33.33 %</td>
+        <td>49</td>
+        <td>33</td>
+        <td>11</td>
+        <td>22</td>
+        <td>0.3</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#487bec85a74f37c76269271404911c37a98fda64" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#429556b986578630109a3c23f2c5e399ec617d09" class="src_link" title="app/helpers/items_helper.rb">app/helpers/items_helper.rb</a></td>
+        <td class="red strong">20.0 %</td>
+        <td>26</td>
+        <td>15</td>
+        <td>3</td>
+        <td>12</td>
+        <td>0.2</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#1a62b90465ee5d715d9f4c045c4e44a831efbf45" class="src_link" title="app/mailers/application_mailer.rb">app/mailers/application_mailer.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>4</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#a0360e004bb4bd34db9aad98897b05236e403273" class="src_link" title="app/mailers/model_mailer.rb">app/mailers/model_mailer.rb</a></td>
+        <td class="red strong">33.33 %</td>
+        <td>15</td>
+        <td>6</td>
+        <td>2</td>
+        <td>4</td>
+        <td>0.3</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#b78c1dac1d3ea93bfa51ec8501729109a4c8cb2f" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#10d8bfc7d4f58de9ba47d3f83f8a4c55751a3f3e" class="src_link" title="app/models/item.rb">app/models/item.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#141d71e19b96266f941fb8d4f65efa528cacb756" class="src_link" title="app/models/user.rb">app/models/user.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>12</td>
+        <td>7</td>
+        <td>7</td>
+        <td>0</td>
+        <td>2.3</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#1a2cf4a6b99841ff029e30270644e0259d53439f" class="src_link" title="config/application.rb">config/application.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>15</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#7886cc649ca1880583c3b5c905f9b44863d41bb4" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#f7bfefdd5f4acb3ac6399769071958c239b466ef" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>5</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#04c7665fee2b0a493879f72be10f8fb2a9b1c425" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>42</td>
+        <td>12</td>
+        <td>12</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#4373d2364eccdede69c597de97fd08f48d07e710" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>8</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#ce29d981f1c9182fdd0feac9026332a7b37ed8df" class="src_link" title="config/initializers/assets.rb">config/initializers/assets.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>11</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#0ff42dac99feb52907255cebeb29ec86090e2eb1" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>7</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#76074e480ab2a469ef84f6f1d2fcaf518163e8b8" class="src_link" title="config/initializers/clearance.rb">config/initializers/clearance.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>5</td>
+        <td>4</td>
+        <td>4</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#1034fd069237a40328464fdd0036fd5712a4e98a" class="src_link" title="config/initializers/cookies_serializer.rb">config/initializers/cookies_serializer.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>5</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#3fa75cbaced27927c2559f155bf0cab34a92c807" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>4</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#890ef0155cdd60ebf5646bbcc883ec39ce81fca7" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>16</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#8e071d2586e007aaaa686594638e0ed457edd68d" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>4</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#453117ac035086900806ff8ceeef0a53ded39813" class="src_link" title="config/initializers/new_framework_defaults.rb">config/initializers/new_framework_defaults.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>26</td>
+        <td>7</td>
+        <td>7</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#081114c0b1622a6c9b79cc11cfa8d7ecacd989b3" class="src_link" title="config/initializers/session_store.rb">config/initializers/session_store.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>3</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#16e75e04dbe2a95838924e2dbcd2f3baaf9563b3" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>14</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.5</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#97279d4f2dc3500efef9aef65d8c4acb9b5c78ee" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>27</td>
+        <td>17</td>
+        <td>17</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#7349eba3c5ab6bf5418988e0a706d4c38efb1c6e" class="src_link" title="spec/controllers/items_controller_spec.rb">spec/controllers/items_controller_spec.rb</a></td>
+        <td class="green strong">98.99 %</td>
+        <td>179</td>
+        <td>99</td>
+        <td>98</td>
+        <td>1</td>
+        <td>3.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#f6ed0f1342b867540aecafaaf91075617db0f674" class="src_link" title="spec/controllers/users_controller_spec.rb">spec/controllers/users_controller_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>80</td>
+        <td>37</td>
+        <td>37</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#aa1873313a921b12375d8a3d952cba8a831bea4a" class="src_link" title="spec/mailers/model_mailer_spec.rb">spec/mailers/model_mailer_spec.rb</a></td>
+        <td class="red strong">80.0 %</td>
+        <td>18</td>
+        <td>10</td>
+        <td>8</td>
+        <td>2</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#e28f5f671a285d989569e411f19693e03224a9db" class="src_link" title="spec/rails_helper.rb">spec/rails_helper.rb</a></td>
+        <td class="yellow strong">84.62 %</td>
+        <td>63</td>
+        <td>13</td>
+        <td>11</td>
+        <td>2</td>
+        <td>0.8</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+
+        
+      </div>
+    
+      <div id="footer">
+        Generated by <a href="http://github.com/colszowka/simplecov">simplecov</a> v0.17.1 
+        and simplecov-html v0.10.2<br/>
+        using RSpec
+      </div>
+    
+      <div class="source_files">
+      
+        <div class="source_table" id="d4e47d2463696b4f96a8c7024f02b542c3d387ec">
+  <div class="header">
+    <h3>app/controllers/application_controller.rb</h3>
+    <h4><span class="red">66.67 %</span> covered</h4>
+    <div>
+      <b>6</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ApplicationController &lt; ActionController::Base</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  include Clearance::Controller</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  protect_from_forgery with: :exception</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  rescue_from CanCan::AccessDenied do |exception|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="6">
+          
+          
+          <code class="ruby">    flash[:error] = &quot;Access Denied.&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
+          
+          <code class="ruby">    redirect_to root_url</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="ecb3f8e4efd03d4aeffb93970c8df3d98f829a47">
+  <div class="header">
+    <h3>app/controllers/items_controller.rb</h3>
+    <h4><span class="red">25.0 %</span> covered</h4>
+    <div>
+      <b>40</b> relevant lines. 
+      <span class="green"><b>10</b> lines covered</span> and
+      <span class="red"><b>30</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ItemsController &lt; ApplicationController</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def item_params</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="3">
+          
+          
+          <code class="ruby">    params.require(:item).permit(:title, :checked_out, :user, :date, :condition)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def index</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
+          
+          <code class="ruby">    if current_user.nil?</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="8">
+          
+          
+          <code class="ruby">      redirect_to sign_up_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="10">
+          
+          
+          <code class="ruby">    @items = Item.all</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def show</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="14">
+          
+          
+          <code class="ruby">    id = params[:id]</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">    @items = Item.find(id)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
+          
+          <code class="ruby">    authorize! :read, @item</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def edit</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="23">
+          
+          
+          <code class="ruby">    @item = Item.find params[:id]</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="24">
+          
+          
+          <code class="ruby">    authorize! :update, @item</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="27">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def create</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="28">
+          
+          
+          <code class="ruby">    @item = Item.create!(item_params)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="29">
+          
+          
+          <code class="ruby">    flash[:notice] = &quot;#{@item.title} was successfully created.&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="30">
+          
+          
+          <code class="ruby">    redirect_to items_path</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="31">
+          
+          
+          <code class="ruby">    authorize! :create, @item</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="32">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="34">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def update</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="35">
+          
+          
+          <code class="ruby">    @item = Item.find params[:id]</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="36">
+          
+          
+          <code class="ruby">    @item.update_attributes!(item_params)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="37">
+          
+          
+          <code class="ruby">    flash[:notice] = &quot;#{@item.title} was successfully updated.&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="38">
+          
+          
+          <code class="ruby">    redirect_to items_path</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="39">
+          
+          
+          <code class="ruby">    authorize! :update, @item</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def destroy</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="43">
+          
+          
+          <code class="ruby">    @item = Item.find(params[:id])</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="44">
+          
+          
+          <code class="ruby">    @item.destroy</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="45">
+          
+          
+          <code class="ruby">    flash[:notice] = &quot;Item &#39;#{@item.title}&#39; deleted.&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="46">
+          
+          
+          <code class="ruby">    redirect_to items_path</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="47">
+          
+          
+          <code class="ruby">    authorize! :delete, @item</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="50">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def check_out</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="51">
+          
+          
+          <code class="ruby">    @item = Item.find(params[:id])</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="52">
+          
+          
+          <code class="ruby">    if @item.checked_out == 0</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="53">
+          
+          
+          <code class="ruby">      @item.update_attributes!({:user =&gt; current_user.username, :checked_out =&gt; 1, :date =&gt; DateTime.now})</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="54">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="55">
+          
+          
+          <code class="ruby">      @item.update_attributes!({:user =&gt; current_user.username, :checked_out =&gt; 0, :date =&gt; DateTime.now})</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="57">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="58">
+          
+          
+          <code class="ruby">    @user = current_user</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="59">
+          
+          
+          <code class="ruby">    ModelMailer.checkout_notification(@item, @user).deliver</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="60">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="61">
+          
+          
+          <code class="ruby">    redirect_to items_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="87593bbc3750c8d6f39229303b8949e0287de49f">
+  <div class="header">
+    <h3>app/controllers/users_controller.rb</h3>
+    <h4><span class="red">33.33 %</span> covered</h4>
+    <div>
+      <b>33</b> relevant lines. 
+      <span class="green"><b>11</b> lines covered</span> and
+      <span class="red"><b>22</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class UsersController &lt; Clearance::UsersController</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  private</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def user_params</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="4">
+          
+          
+          <code class="ruby">    params.require(:user).permit(:username, :email, :password, :permission)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  public</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def index</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
+          
+          <code class="ruby">    @users = User.all</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def show</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
+          
+          <code class="ruby">    id = params[:id]</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="14">
+          
+          
+          <code class="ruby">    @user = User.find(id)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">    authorize! :read, @user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def edit</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="19">
+          
+          
+          <code class="ruby">    @user = User.find params[:id]</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
+          
+          <code class="ruby">    authorize! :update, @user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def update</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="24">
+          
+          
+          <code class="ruby">    @user = User.find params[:id]</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
+          
+          <code class="ruby">    @user.update_attributes!(user_params)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="26">
+          
+          
+          <code class="ruby">    flash[:notice] = &quot;#{@user.username} was successfully updated.&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="27">
+          
+          
+          <code class="ruby">    redirect_to user_path(@user)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="28">
+          
+          
+          <code class="ruby">    authorize! :update, @user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def destroy</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="32">
+          
+          
+          <code class="ruby">    @user = User.find(params[:id])</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="33">
+          
+          
+          <code class="ruby">    @user.destroy</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="34">
+          
+          
+          <code class="ruby">    flash[:notice] = &quot;User &#39;#{@user.username}&#39; deleted.&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="35">
+          
+          
+          <code class="ruby">    redirect_to users_path</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="36">
+          
+          
+          <code class="ruby">    authorize! :delete, @user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="39">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def add</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="40">
+          
+          
+          <code class="ruby">    authorize! :update, @user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="42">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="43">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def insert</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="44">
+          
+          
+          <code class="ruby">    @user = User.create!(user_params)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="45">
+          
+          
+          <code class="ruby">    flash[:notice] = &quot;#{@user.username} was successfully created.&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="46">
+          
+          
+          <code class="ruby">    redirect_to users_path</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="47">
+          
+          
+          <code class="ruby">    authorize! :create, @user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="487bec85a74f37c76269271404911c37a98fda64">
+  <div class="header">
+    <h3>app/helpers/application_helper.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">module ApplicationHelper</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="429556b986578630109a3c23f2c5e399ec617d09">
+  <div class="header">
+    <h3>app/helpers/items_helper.rb</h3>
+    <h4><span class="red">20.0 %</span> covered</h4>
+    <div>
+      <b>15</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>12</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">module ItemsHelper</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def sum_item(items, title)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="3">
+          
+          
+          <code class="ruby">    @items = items</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="4">
+          
+          
+          <code class="ruby">    item_temp = Array.new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="6">
+          
+          
+          <code class="ruby">    @items.each do |item|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
+          
+          <code class="ruby">      if item.title.eql? title</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="8">
+          
+          
+          <code class="ruby">        item_temp.push(item)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="11">
+          
+          
+          <code class="ruby">    return item_temp</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def checked_out_count(items, title)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">    @items = items</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
+          
+          <code class="ruby">    item_count = 0</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="18">
+          
+          
+          <code class="ruby">    @items.each do |item|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="19">
+          
+          
+          <code class="ruby">      if item.title.eql? title and item.checked_out != nil and item.checked_out &gt; 0</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
+          
+          <code class="ruby">        item_count = item_count + 1</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="23">
+          
+          
+          <code class="ruby">    return item_count</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="1a62b90465ee5d715d9f4c045c4e44a831efbf45">
+  <div class="header">
+    <h3>app/mailers/application_mailer.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ApplicationMailer &lt; ActionMailer::Base</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  default from: &#39;me@sandboxfacd08cb7c3445c1b4409de917d5e15f.mailgun.org&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  layout &#39;mailer&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="a0360e004bb4bd34db9aad98897b05236e403273">
+  <div class="header">
+    <h3>app/mailers/model_mailer.rb</h3>
+    <h4><span class="red">33.33 %</span> covered</h4>
+    <div>
+      <b>6</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>4</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ModelMailer &lt; ApplicationMailer</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">  # Subject can be set in your I18n file at config/locales/en.yml</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">  # with the following lookup:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">  #   en.model_mailer.checkout_notification.subject</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def checkout_notification(item, user)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
+          
+          <code class="ruby">    @item = item</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="10">
+          
+          
+          <code class="ruby">    @user = user</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="11">
+          
+          
+          <code class="ruby">    @greeting = &quot;Howdy!&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
+          
+          <code class="ruby">    mail to: &quot;murtaza.hakimi@gmail.com&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="b78c1dac1d3ea93bfa51ec8501729109a4c8cb2f">
+  <div class="header">
+    <h3>app/models/application_record.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ApplicationRecord &lt; ActiveRecord::Base</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  self.abstract_class = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="10d8bfc7d4f58de9ba47d3f83f8a4c55751a3f3e">
+  <div class="header">
+    <h3>app/models/item.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class Item &lt; ApplicationRecord</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="141d71e19b96266f941fb8d4f65efa528cacb756">
+  <div class="header">
+    <h3>app/models/user.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class User &lt; ApplicationRecord</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  include Clearance::User</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates :username, presence: true, uniqueness: true</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates :permission, :inclusion =&gt; { :in =&gt; 0..1 }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  before_save :default_values</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def default_values</code>
+        </li>
+      
+        <li class="covered" data-hits="10" data-linenumber="10">
+          <span class="hits">10</span>
+          
+          <code class="ruby">    self.permission = 0 if self.permission.nil?</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="1a2cf4a6b99841ff029e30270644e0259d53439f">
+  <div class="header">
+    <h3>config/application.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require_relative &#39;boot&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails/all&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"># Require the gems listed in Gemfile, including any gems</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"># you&#39;ve limited to :test, :development, or :production.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Bundler.require(*Rails.groups)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">module SailingTeamIventorySystem</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  class Application &lt; Rails::Application</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">    # Settings in config/environments/* take precedence over those specified here.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">    # Application configuration should go into files in config/initializers</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">    # -- all .rb files in that directory are automatically loaded.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="7886cc649ca1880583c3b5c905f9b44863d41bb4">
+  <div class="header">
+    <h3>config/boot.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">ENV[&#39;BUNDLE_GEMFILE&#39;] ||= File.expand_path(&#39;../Gemfile&#39;, __dir__)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;bundler/setup&#39; # Set up gems listed in the Gemfile.</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="f7bfefdd5f4acb3ac6399769071958c239b466ef">
+  <div class="header">
+    <h3>config/environment.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Load the Rails application.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require_relative &#39;application&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"># Initialize the Rails application.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.initialize!</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="04c7665fee2b0a493879f72be10f8fb2a9b1c425">
+  <div class="header">
+    <h3>config/environments/test.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>12</b> relevant lines. 
+      <span class="green"><b>12</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.configure do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">  # Settings specified here will take precedence over those in config/application.rb.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">  # The test environment is used exclusively to run your application&#39;s</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  # test suite. You never need to work with it otherwise. Remember that</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">  # your test database is &quot;scratch space&quot; for the test suite and is wiped</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">  # and recreated between test runs. Don&#39;t rely on the data there!</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.cache_classes = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">  # Do not eager load code on boot. This avoids loading your whole application</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  # just for the purpose of running a single test. If you are using a tool that</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">  # preloads Rails for running tests, you may have to set it to true.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.eager_load = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">  # Configure public file server for tests with Cache-Control for performance.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.public_file_server.enabled = true</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.public_file_server.headers = {</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">    &#39;Cache-Control&#39; =&gt; &#39;public, max-age=3600&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">  }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">  # Show full error reports and disable caching.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.consider_all_requests_local       = true</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.action_controller.perform_caching = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  # Raise exceptions instead of rendering exception templates.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.action_dispatch.show_exceptions = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">  # Disable request forgery protection in test environment.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="29">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.action_controller.allow_forgery_protection = false</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="30">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.action_mailer.perform_caching = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="32">
+          
+          
+          <code class="ruby">  # Tell Action Mailer not to deliver emails to the real world.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby">  # The :test delivery method accumulates sent emails in the</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby">  # ActionMailer::Base.deliveries array.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.action_mailer.delivery_method = :test</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">  # Print deprecation notices to the stderr.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="38">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.active_support.deprecation = :stderr</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">  # Raises error for missing translations</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby">  # config.action_view.raise_on_missing_translations = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="42">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="4373d2364eccdede69c597de97fd08f48d07e710">
+  <div class="header">
+    <h3>config/initializers/application_controller_renderer.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>0</b> relevant lines. 
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># ActiveSupport::Reloader.to_prepare do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">#   ApplicationController.renderer.defaults.merge!(</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">#     http_host: &#39;example.org&#39;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">#     https: false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">#   )</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"># end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="ce29d981f1c9182fdd0feac9026332a7b37ed8df">
+  <div class="header">
+    <h3>config/initializers/assets.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># Version of your assets, change this if you want to expire all your assets.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.assets.version = &#39;1.0&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"># Add additional assets to the asset load path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"># Rails.application.config.assets.paths &lt;&lt; Emoji.images_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"># Precompile additional assets.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"># application.js, application.css, and all non-JS/CSS in app/assets folder are already added.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"># Rails.application.config.assets.precompile += %w( search.js )</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="0ff42dac99feb52907255cebeb29ec86090e2eb1">
+  <div class="header">
+    <h3>config/initializers/backtrace_silencers.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>0</b> relevant lines. 
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># You can add backtrace silencers for libraries that you&#39;re using but don&#39;t wish to see in your backtraces.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"># Rails.backtrace_cleaner.add_silencer { |line| line =~ /my_noisy_library/ }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"># You can also remove all the silencers if you&#39;re trying to debug a problem that might stem from framework code.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"># Rails.backtrace_cleaner.remove_silencers!</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="76074e480ab2a469ef84f6f1d2fcaf518163e8b8">
+  <div class="header">
+    <h3>config/initializers/clearance.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Clearance.configure do |config|</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.routes = false</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.mailer_sender = &quot;reply@example.com&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.rotate_csrf_on_sign_in = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="1034fd069237a40328464fdd0036fd5712a4e98a">
+  <div class="header">
+    <h3>config/initializers/cookies_serializer.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># Specify a serializer for the signed and encrypted cookie jars.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"># Valid options are :json, :marshal, and :hybrid.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.action_dispatch.cookies_serializer = :json</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="3fa75cbaced27927c2559f155bf0cab34a92c807">
+  <div class="header">
+    <h3>config/initializers/filter_parameter_logging.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># Configure sensitive parameters which will be filtered from the log file.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.filter_parameters += [:password]</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="890ef0155cdd60ebf5646bbcc883ec39ce81fca7">
+  <div class="header">
+    <h3>config/initializers/inflections.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>0</b> relevant lines. 
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># Add new inflection rules using the following format. Inflections</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"># are locale specific, and you may define rules for as many different</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"># locales as you wish. All of these examples are active by default:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"># ActiveSupport::Inflector.inflections(:en) do |inflect|</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">#   inflect.plural /^(ox)$/i, &#39;\1en&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">#   inflect.singular /^(ox)en/i, &#39;\1&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">#   inflect.irregular &#39;person&#39;, &#39;people&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">#   inflect.uncountable %w( fish sheep )</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"># end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"># These inflection rules are supported but not enabled by default:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"># ActiveSupport::Inflector.inflections(:en) do |inflect|</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">#   inflect.acronym &#39;RESTful&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"># end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="8e071d2586e007aaaa686594638e0ed457edd68d">
+  <div class="header">
+    <h3>config/initializers/mime_types.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>0</b> relevant lines. 
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># Add new mime types for use in respond_to blocks:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"># Mime::Type.register &quot;text/richtext&quot;, :rtf</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="453117ac035086900806ff8ceeef0a53ded39813">
+  <div class="header">
+    <h3>config/initializers/new_framework_defaults.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># This file contains migration options to ease your Rails 5.0 upgrade.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"># Read the Guide for Upgrading Ruby on Rails for more info on each option.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.action_controller.raise_on_unfiltered_parameters = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"># Enable per-form CSRF tokens. Previous versions had false.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.action_controller.per_form_csrf_tokens = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"># Enable origin-checking CSRF mitigation. Previous versions had false.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.action_controller.forgery_protection_origin_check = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby"># Make Ruby 2.4 preserve the timezone of the receiver when calling `to_time`.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"># Previous versions had false.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">ActiveSupport.to_time_preserves_timezone = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"># Require `belongs_to` associations by default. Previous versions had false.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.active_record.belongs_to_required_by_default = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby"># Do not halt callback chains when a callback returns false. Previous versions had true.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">ActiveSupport.halt_callback_chains_on_return_false = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby"># Configure SSL options to enable HSTS with subdomains. Previous versions had false.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.ssl_options = { hsts: { subdomains: true } }</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="081114c0b1622a6c9b79cc11cfa8d7ecacd989b3">
+  <div class="header">
+    <h3>config/initializers/session_store.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.config.session_store :cookie_store, key: &#39;_Sailing-Team-Iventory-System_session&#39;</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="16e75e04dbe2a95838924e2dbcd2f3baaf9563b3">
+  <div class="header">
+    <h3>config/initializers/wrap_parameters.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># This file contains settings for ActionController::ParamsWrapper which</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"># is enabled by default.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"># Enable parameter wrapping for JSON. You can disable this by setting :format to an empty array.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">ActiveSupport.on_load(:action_controller) do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="8">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  wrap_parameters format: [:json]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"># To enable root element in JSON for ActiveRecord objects.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"># ActiveSupport.on_load(:active_record) do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">#   self.include_root_in_json = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"># end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="97279d4f2dc3500efef9aef65d8c4acb9b5c78ee">
+  <div class="header">
+    <h3>config/routes.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>17</b> relevant lines. 
+      <span class="green"><b>17</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Rails.application.routes.draw do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  resources :items</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  get &#39;items/index&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  get &#39;items/show&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  get &#39;items/new&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  get &#39;items/edit&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  post &#39;/items/:id&#39;, to: &#39;items#check_out&#39;, as: &quot;items_update&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  resources :passwords, controller: &quot;clearance/passwords&quot;, only: [:create, :new]</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  resource :session, controller: &quot;clearance/sessions&quot;, only: [:create]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  resources :users, controller: &quot;users&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    resource :password,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">      controller: &quot;clearance/passwords&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">      only: [:create, :edit, :update]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  get &quot;/sign_in&quot; =&gt; &quot;clearance/sessions#new&quot;, as: &quot;sign_in&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  delete &quot;/sign_out&quot; =&gt; &quot;clearance/sessions#destroy&quot;, as: &quot;sign_out&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  get &quot;/sign_up&quot; =&gt; &quot;clearance/users#new&quot;, as: &quot;sign_up&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  get &quot;/add&quot; =&gt; &quot;users#add&quot;, as: &quot;add&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  post &quot;/insert&quot; =&gt; &quot;users#insert&quot;, as: &quot;insert&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  root to: &quot;items#index&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="7349eba3c5ab6bf5418988e0a706d4c38efb1c6e">
+  <div class="header">
+    <h3>spec/controllers/items_controller_spec.rb</h3>
+    <h4><span class="green">98.99 %</span> covered</h4>
+    <div>
+      <b>99</b> relevant lines. 
+      <span class="green"><b>98</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">RSpec.describe ItemsController, type: :controller do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	describe &#39;#create&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Add Item with title&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last()</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last.title).to eq(&#39;stuff&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Add Item with data&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last()</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last.title).to eq(&#39;stuff&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last.user).to eq(&#39;does things&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last.checked_out).to eq(0)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Add Items&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;thing&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;widget&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="29">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last(3)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="30">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[0].title).to eq(&quot;stuff&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[1].title).to eq(&quot;thing&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="32">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[2].title).to eq(&quot;widget&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="34">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Add many Items of Identical title&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			max = 100</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="36">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			for k in 0..max</code>
+        </li>
+      
+        <li class="covered" data-hits="101" data-linenumber="37">
+          <span class="hits">101</span>
+          
+          <code class="ruby">				Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby">							:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby">							:checked_out =&gt; 10</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">			end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="41">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last(max)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last.each do |elem|</code>
+        </li>
+      
+        <li class="covered" data-hits="100" data-linenumber="43">
+          <span class="hits">100</span>
+          
+          <code class="ruby">				expect(elem.title).to eq(last[0].title)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="44">
+          
+          
+          <code class="ruby">			end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby">	</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="48">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	describe &#39;#update&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="49">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Update Item title&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="50">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="53">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="54">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.update last.id,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby">						:title =&gt; &quot;thing&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="56">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			new = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="57">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.title).to eq(&quot;thing&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="58">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.user).to eq(last.user)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="59">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.checked_out).to eq(last.checked_out)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="60">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="62">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Update Item user&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="63">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="65">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="66">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="67">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.update last.id,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="68">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things different&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="69">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			new = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="70">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.title).to eq(last.title)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="71">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.user).to eq(&quot;does things different&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="72">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.checked_out).to eq(last.checked_out)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="73">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="74">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="75">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Update Item checked_out&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="76">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="77">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="78">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="79">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="80">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.update last.id,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="81">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="82">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			new = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="83">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.title).to eq(last.title)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="84">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.user).to eq(last.user)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="85">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(new.checked_out).to eq(1)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="86">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="87">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="88">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Update Item date&#39; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="89">
+          
+          
+          <code class="ruby">		#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="90">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="91">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="92">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Update all fields&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="93">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="94">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="95">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="96">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="97">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.update last.id,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="98">
+          
+          
+          <code class="ruby">						:title =&gt; &quot;thing&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="99">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things different&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="100">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="101">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="102">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last.title).to eq(&quot;thing&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="103">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last.user).to eq(&quot;does things different&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="104">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last.checked_out).to eq(1)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="105">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="106">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="107">
+          
+          
+          <code class="ruby">	</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="108">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	describe &#39;#destroy&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="109">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Delete Item&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="110">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="111">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="112">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="113">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.destroy Item.where(&quot;title = &#39;stuff&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="114">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="115">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last).to eq(nil)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="116">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="117">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="118">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Delete Item from multiple&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="119">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="120">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="121">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="122">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;thing&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="123">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="124">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="125">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;widget&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="126">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does thing&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="127">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="128">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.destroy Item.where(&quot;title = &#39;thing&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="129">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last(3)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="130">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[0].title).to eq(&quot;stuff&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="131">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[1].title).to eq(&quot;widget&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="132">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[2]).to eq(nil)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="133">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="134">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="135">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Delete multiple Items&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="136">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="137">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="138">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="139">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;thing&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="140">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="141">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="142">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;widget&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="143">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does thing&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="144">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="145">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;foobar&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="146">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does anything&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="147">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="148">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.destroy Item.where(&quot;title = &#39;thing&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="149">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.destroy Item.where(&quot;title = &#39;foobar&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="150">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.destroy Item.where(&quot;title = &#39;widget&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="151">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last(4)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="152">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[0].title).to eq(&quot;stuff&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="153">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[1]).to eq(nil)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="154">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[2]).to eq(nil)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="155">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[3]).to eq(nil)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="156">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="157">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="158">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Delete all Items&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="159">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="160">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does things&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="161">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="162">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;thing&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="163">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does stuff&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="164">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="165">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;widget&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="166">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does thing&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="167">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="168">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.create :title =&gt; &quot;foobar&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="169">
+          
+          
+          <code class="ruby">						:user =&gt; &quot;does anything&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="170">
+          
+          
+          <code class="ruby">						:checked_out =&gt; 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="171">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			Item.destroy_all</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="172">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = Item.last(4)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="173">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last.each do |elem|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="174">
+          
+          
+          <code class="ruby">				expect(elem).to eq(nil)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="175">
+          
+          
+          <code class="ruby">			end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="176">
+          
+          
+          <code class="ruby">		end		</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="177">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="178">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="179">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="f6ed0f1342b867540aecafaaf91075617db0f674">
+  <div class="header">
+    <h3>spec/controllers/users_controller_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>37</b> relevant lines. 
+      <span class="green"><b>37</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">RSpec.describe UsersController, type: :controller do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	describe &#39;#create&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Add Users&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Mister&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;email@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Bea&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;gmail@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Bob&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;amail@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = User.last(3)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[0].username).to eq(&quot;Mister&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[1].username).to eq(&quot;Bea&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[2].username).to eq(&quot;Bob&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">	</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="25">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	describe &#39;#destroy&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Delete User&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="27">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Mister&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;email@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.destroy User.where(&quot;username = &#39;Mister&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="32">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = User.last</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="33">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last).to eq(nil)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="36">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Delete User from multiple&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="37">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Mister&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;email@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="41">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Bea&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="42">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;gmail@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="43">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="44">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="45">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Bob&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;amail@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="49">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.destroy User.where(&quot;username = &#39;Bea&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="50">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = User.last(3)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="51">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[0].username).to eq(&quot;Mister&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="52">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[1].username).to eq(&quot;Bob&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="53">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[2]).to eq(nil)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="54">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="56">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		it &#39;Delete multiple Users&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="57">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Mister&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="58">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;email@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="59">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="60">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="61">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Bea&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;gmail@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="65">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.create :username =&gt; &quot;Bob&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
+          <code class="ruby">						:email =&gt; &quot;amail@email.net&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="67">
+          
+          
+          <code class="ruby">						:password =&gt; &quot;password&quot;,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="68">
+          
+          
+          <code class="ruby">						:permission =&gt; 1</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="69">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.destroy User.where(&quot;username = &#39;Mister&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="70">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.destroy User.where(&quot;username = &#39;Bea&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="71">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			User.destroy User.where(&quot;username = &#39;Bob&#39;&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="72">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			last = User.last(3)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="73">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[0]).to eq(nil)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="74">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[1]).to eq(nil)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="75">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			expect(last[2]).to eq(nil)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="76">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="77">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="78">
+          
+          
+          <code class="ruby">		</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="79">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="80">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="aa1873313a921b12375d8a3d952cba8a831bea4a">
+  <div class="header">
+    <h3>spec/mailers/model_mailer_spec.rb</h3>
+    <h4><span class="red">80.0 %</span> covered</h4>
+    <div>
+      <b>10</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &quot;rails_helper&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">RSpec.describe ModelMailer, type: :mailer do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  describe &quot;checkout_notification&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="5">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    let(:mail) { ModelMailer.checkout_notification }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;renders the headers&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(mail.subject).to eq(&quot;Checkout notification&quot;)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
+          
+          <code class="ruby">      expect(mail.to).to eq([&quot;to@example.org&quot;])</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="10">
+          
+          
+          <code class="ruby">      expect(mail.from).to eq([&quot;from@example.com&quot;])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;renders the body&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(mail.body.encoded).to match(&quot;Hi&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="e28f5f671a285d989569e411f19693e03224a9db">
+  <div class="header">
+    <h3>spec/rails_helper.rb</h3>
+    <h4><span class="yellow">84.62 %</span> covered</h4>
+    <div>
+      <b>13</b> relevant lines. 
+      <span class="green"><b>11</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># This file is copied to spec/ when you run &#39;rails generate rspec:install&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;spec_helper&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">ENV[&#39;RAILS_ENV&#39;] ||= &#39;test&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require File.expand_path(&#39;../config/environment&#39;, __dir__)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"># Prevent database truncation if the environment is production</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">abort(&quot;The Rails environment is running in production mode!&quot;) if Rails.env.production?</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rspec/rails&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"># Add additional requires below this line. Rails is not loaded until this point!</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"># Requires supporting ruby files with custom matchers and macros, etc, in</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"># spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"># run as spec files by default. This means that files in spec/support that end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby"># in _spec.rb will both be required and run as specs, causing the specs to be</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"># run twice. It is recommended that you do not name files matching this glob to</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"># end with _spec.rb. You can configure this pattern with the --pattern</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby"># option on the command line or in ~/.rspec, .rspec or `.rspec-local`.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby"># The following line is provided for convenience purposes. It has the downside</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby"># of increasing the boot-up time by auto-requiring all files in the support</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby"># directory. Alternatively, in the individual `*_spec.rb` files, manually</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby"># require only the support files necessary.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby"># Dir[Rails.root.join(&#39;spec&#39;, &#39;support&#39;, &#39;**&#39;, &#39;*.rb&#39;)].each { |f| require f }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby"># Checks for pending migrations and applies them before tests are run.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby"># If you are not using ActiveRecord, you can remove these lines.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby">begin</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="30">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  ActiveRecord::Migration.maintain_test_schema!</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby">rescue ActiveRecord::PendingMigrationError =&gt; e</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="32">
+          
+          
+          <code class="ruby">  puts e.to_s.strip</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="33">
+          
+          
+          <code class="ruby">  exit 1</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">RSpec.configure do |config|</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
+          
+          
+          <code class="ruby">  # Remove this line if you&#39;re not using ActiveRecord or ActiveRecord fixtures</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="37">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.fixture_path = &quot;#{::Rails.root}/spec/fixtures&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby">  # If you&#39;re not using ActiveRecord, or you&#39;d prefer not to run each of your</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">  # examples within a transaction, remove the following line or assign false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby">  # instead of true.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.use_transactional_fixtures = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="43">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="44">
+          
+          
+          <code class="ruby">  # RSpec Rails can automatically mix in different behaviours to your tests</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby">  # based on their file location, for example enabling you to call `get` and</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby">  # `post` in specs under `spec/controllers`.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby">  # You can disable this behaviour by removing the line below, and instead</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby">  # explicitly tag your specs with their type, e.g.:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">  #     RSpec.describe UsersController, :type =&gt; :controller do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
+          <code class="ruby">  #       # ...</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="53">
+          
+          
+          <code class="ruby">  #     end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="54">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby">  # The different available types are documented in the features, such as in</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
+          <code class="ruby">  # https://relishapp.com/rspec/rspec-rails/docs</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="57">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.infer_spec_type_from_file_location!</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="58">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="59">
+          
+          
+          <code class="ruby">  # Filter lines from Rails gems in backtraces.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="60">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.filter_rails_from_backtrace!</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby">  # arbitrary gems may also be filtered via:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby">  # config.filter_gems_from_backtrace(&quot;gem name&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+      </div>
+    </div>
+  </body>
+</html>
