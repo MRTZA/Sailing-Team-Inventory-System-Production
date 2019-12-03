@@ -62,7 +62,6 @@ end
 
 Then(/^I should be able to sign in with the account$/) do
   visit "/"
-  click_on "Sign up" 
   find_field("Email").set("newuser@goodemail.net")
   find_field("Username").set("Testman")
   find_field("Password").set("password")
@@ -78,10 +77,10 @@ end
 
 Then(/^I should be able to checkout an item$/) do
   visit "/"
-  click_on "Sign up" 
-  find_field("Email").set("newuser@goodemail.net")
-  find_field("Username").set("Testman")
-  find_field("Password").set("password")
+  expect(page).to have_content("Sign up")
+  fill_in('Email', with: 'newuser@goodemail.net')
+  fill_in('Username', with: 'Testman')
+  fill_in('Password', with: 'password')
   click_button "Sign up"
   expect(page).to have_content("All Inventory Items")
   click_on "Check Out"
