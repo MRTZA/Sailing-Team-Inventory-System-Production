@@ -186,6 +186,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    ref (2.0.0)
     regexp_parser (1.6.0)
     rspec-core (3.9.0)
       rspec-support (~> 3.9.0)
@@ -260,6 +261,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  actionmailer (~> 5.0, >= 5.0.0.1)
   bcrypt (~> 3.1.7)
   byebug
   cancan

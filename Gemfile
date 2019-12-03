@@ -37,7 +37,11 @@ gem 'tzinfo-data'
 
 gem 'haml-rails'
 
+# For user permissions
 gem 'cancan'
+
+# For mail notifications
+gem 'actionmailer', '~> 5.0', '>= 5.0.0.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
