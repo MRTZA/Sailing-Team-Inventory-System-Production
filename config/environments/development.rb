@@ -39,7 +39,7 @@ Rails.application.configure do
       :port => 587,
       :domain => "sandboxfacd08cb7c3445c1b4409de917d5e15f.mailgun.org",
       :user_name => "postmaster@sandboxfacd08cb7c3445c1b4409de917d5e15f.mailgun.org",
-      :password => "0590733e54be51fc3c1429af076706e7-f7910792-3ccf7fdf"
+      :password => "a68b14e51b831d5f604dfdb775c1166a-5645b1f9-9166cab9"
   }
 
   # Print deprecation notices to the Rails logger.
